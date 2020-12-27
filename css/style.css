@@ -117,14 +117,15 @@ body{
 
 /*footer*/
 
-footer{
+.footer{
 	color: white;
-	background-color: rgba(32, 32, 32, .7);
+	background-color: rgba(32, 32, 32, 1);
 	text-align: center;
-/*	position: absolute;*/
+	position: relative;
 	bottom: 0px;
 	width: 100%;
 	z-index: 1;
+	padding: 10px;
 }
 
 .footer2{
@@ -135,18 +136,18 @@ footer{
 	bottom: 0px;
 	width: 100%;
 	z-index: 1;
+	padding: 10px;
 }
 
 .footer2 h4{
 	font-weight: normal;
 	font-size: 10px;
-	margin: 10px;
+/*	margin: 10px;*/
 }
 
 footer h4{
 	font-weight: normal;
 	font-size: 10px;
-	margin: 10px;
 }
 
 /*map*/
